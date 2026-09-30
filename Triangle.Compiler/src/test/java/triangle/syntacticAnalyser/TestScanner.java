@@ -53,11 +53,12 @@ public class TestScanner {
 	public void testHi() {
 		compileExpectSuccess("/hi.tri");
 	}
+
 	
 
 	@Test
 	public void testHiNewComment() {
-		compileExpectFailure("/hi-newcomment.tri");
+		compileExpectSuccess("/hi-newcomment.tri");
 	}
 	
 
@@ -71,11 +72,20 @@ public class TestScanner {
 	public void testBarDemo() {
 		compileExpectFailure("/bardemo.tri");
 	}
+
+		
+	@Test
+	public void testAdd() {
+		compileExpectSuccess("/add.tri");
+	}
+	
+	
+	
 	
 
 	@Test
 	public void testRepeatUntil() {
-		compileExpectFailure("/repeatuntil.tri");
+		compileExpectSuccess("/repeatuntill.tri");
 	}
 	
 	

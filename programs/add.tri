@@ -1,0 +1,25 @@
+let
+    var x : Integer;
+    var y : Integer;
+    var z : Integer;
+    var h : Integer
+in
+    begin
+        getint(var x);
+        getint(var y);
+      
+        z := x + y;
+        putint(z);
+        puteol();
+        h := x * y;
+        putint(h);
+        puteol();
+
+          if x = y then
+            begin
+                put('s'); put('a'); put('m'); put('e'); put('!');
+                puteol()
+            end
+        else
+            begin end;
+    end
